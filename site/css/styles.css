@@ -276,16 +276,16 @@ h3.menu-item-title {
 @media (max-width: 767px) {
   /* Header */
   .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
+    /*padding-top: 10px;*/
+    /*height: 80px;*/
   }
-  .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+  .navbar-brand h1 { /* Inspire me! */
+   /* padding-top: 40px;*/
+    /*font-size: 5vw;*/ /* 1vw = 1% of viewport width */
   }
   .navbar-brand p { /* A game... */
-    font-size: 1em;
-    margin-top: 12px;
+    /*font-size: 1em;
+    margin-top: 12px;*/
   }
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
@@ -293,6 +293,10 @@ h3.menu-item-title {
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
+  }
+
+  #logo-img {
+  margin: 10px 15px 10px 15px;
   }
   /* End Header */
 
