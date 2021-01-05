@@ -18,6 +18,10 @@ body {
   margin: 10px 15px 10px 0;
 }
 
+#menu-categories-title {
+  color: #000;
+}
+
 .navbar-brand {
   padding-top: 25px;
   padding-top: 45px;
@@ -51,7 +55,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #fff;
   text-align: center;
 }
 #nav-list a:hover {
@@ -61,18 +65,20 @@ body {
   font-size: 1.8em;
 }
 
+/*
 #phone {
   margin-top: 5px;
-}
-#phone a { /* Phone number */
+
+#phone a 
   text-align: right;
   padding-bottom: 0;
 }
-#phone div { /* We Deliver */
+#phone div 
   color: #557c3e;
   text-align: right;
   padding-right: 15px;
 }
+*/
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #fff;
@@ -80,7 +86,16 @@ body {
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -55px;
+  /*background-color: #8b9dc3;*/ /* SIDRA THINKS WE STILL NEED THIS */
 }
+.navbar-header button.navbar-toggle:focus {
+  background-color: #dfe3ee;
+}
+/* SIDRA FIX THIS 
+.navbar-default .navbar-nav>.active, .navbar-default .navbar-nav.active>a.focus, .navbar-default .navbar-nav.active>a:hover {
+  background-color: #dfe3ee;
+}*/
+
 /* END HEADER */
 
 /* FOOTER */
