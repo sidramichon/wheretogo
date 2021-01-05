@@ -305,10 +305,6 @@ h3.menu-item-title {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
-  .navbar-brand h1 { /* Inspire Me! */
-    padding-top: 5px;
-    font-size: 6vw;
-  }
   /* End Header */
   
   /* Home page */
