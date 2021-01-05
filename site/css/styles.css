@@ -224,6 +224,9 @@ h3.menu-item-title {
     height: 80px;
     margin: 10px 15px 10px 15px;
   }
+  .navbar-brand h1 { /* Inspire me! */
+    margin-top: -15px;
+  }
   /* End Header */
 }
 
@@ -235,6 +238,9 @@ h3.menu-item-title {
     width: 111px;
     height: 80px;
     margin: 10px 15px 10px 15px;
+  }
+  .navbar-brand h1 { /* Inspire me! */
+    margin-top: -15px;
   }
   /* End Home Page */
 }
