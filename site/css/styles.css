@@ -79,7 +79,7 @@ body {
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
+  margin-top: -55px;
 }
 /* END HEADER */
 
@@ -245,10 +245,12 @@ h3.menu-item-title {
   .navbar-brand {
     /*padding-top: 10px;*/
     /*height: 80px;*/
+    padding-left: 0px;
   }
   .navbar-brand h1 { /* Inspire me! */
    /* padding-top: 40px;*/
     /*font-size: 5vw;*/ /* 1vw = 1% of viewport width */
+    margin-top: -15px;
   }
   .navbar-brand p { /* A game... */
     /*font-size: 1em;
@@ -265,6 +267,7 @@ h3.menu-item-title {
     background: url('../images/logo/wheretogo-white-sm.png') no-repeat;
     width: 83px;
     height: 60px;
+    vertical-align: middle;
     margin: 10px 15px 10px 15px;
   }
   /* End Header */
