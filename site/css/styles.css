@@ -4,10 +4,10 @@ body {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
 
-/** CAROUSEL **?
+/** CAROUSEL **/
 .carousel {
-    height: 500px;
-    margin-bottom: 60px;
+    height: 700px;
+    /*margin-bottom: 60px;*/
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -16,17 +16,21 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-    width: 100%;
+    /*width: 100%;
     height: 500px;
-    background-color: #777;
+    background-color: #777;*/
 }
+
+
 .carousel-inner > .item > img {
-    position: absolute;
+    /*position: absolute;
     top: 0;
-    left: 0;
+    left: 0;*/
     min-width: 100%;
-    height: 500px;
+    height: 700px;
 }
+
+
 
 @media (min-width: 768px) {
     .carousel-caption p {
